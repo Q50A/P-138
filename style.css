@@ -1,6 +1,7 @@
 html,body{
 	height: 99%;
 	width: 99%;
+  background-color: lightgray;
 }
 *{
 	box-sizing: border-box;
@@ -87,4 +88,26 @@ h1{
 .menu a:hover{
 	color: yellow;
 	background-color: red;
+}
+.left{
+  width: 50%;
+  position: absolute;
+  left:5px;
+  color:whitesmoke;
+  border: 2px solid black;
+  border-radius: 5%;
+  font-family: 2em;
+  text-align: center;
+
+}
+.right{
+  width: 48%;
+  position: absolute;
+  right:5px;
+  color:whitesmoke;
+  border: 2px solid black;
+  border-radius: 5%;
+  font-family: 2em;
+  text-align: center;
+
 }
